@@ -33,12 +33,12 @@ public class System_hospitalier {
 		System.out.println(comparaisonDonnees);
 	}
 	
-	private String analyserRequete(Requête requête) {
+	private String analyserRequete(Requête requête) { // Analyser les requetes recu de la part du patient par le systeme hospitalier
 		// Analyser la requête
 		return "requête analysée";
 	}
 	
-	private String comparerDonnes() {
+	private String comparerDonnes() {   // comparer ces requetes a d'autres anciennes pour voir si il ya une similarite entre eux
 		// Comparaison des données
 		return "Cluster trouvé";
 	}
